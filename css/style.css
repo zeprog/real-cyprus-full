@@ -428,7 +428,8 @@ button {
     color: #7b838a; }
   .footer-area .single-footer-widget h4 {
     color: #fff;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    height: 26px; }
     @media (max-width: 1024px) {
       .footer-area .single-footer-widget h4 {
         font-size: 18px; } }
@@ -443,6 +444,9 @@ button {
         color: #1E90FF; }
   .footer-area .single-footer-widget .form-wrap {
     margin-top: 25px; }
+  .form-inline {
+    flex-wrap: nowrap;
+  }
   .footer-area .single-footer-widget input {
     height: 48px;
     border: none;
@@ -475,7 +479,7 @@ button {
     border-radius: 0;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    padding: 8px 20px;
+    padding: 14px 20px;
     border: 0;
     font-size: 13px;
     background: #1E90FF;
@@ -488,9 +492,10 @@ button {
     @media (max-width: 375px) {
       .footer-area .single-footer-widget .click-btn {
         margin-top: 10px; } }
-    @media (min-width: 400px) {
+    @media (min-width: 400px) and (max-width: 1200px) {
       .footer-area .single-footer-widget .click-btn {
-        left: -50px; } }
+        left: -50px; 
+        padding: 8px 20px; } }
   .footer-area .footer-bottom {
     margin-top: 70px; }
     @media (max-width: 991px) {
